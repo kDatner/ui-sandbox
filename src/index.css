@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-shade-100: #0f1114;
+    --color-shade-200: #151920;
+    --color-shade-300: #181c24;
+    --color-shade-400: #1f242d;
+    --color-shade-500: #424a54;
+
+    --semantic-success: var(--color-green-400);
+
+    --semantic-text-secondary: #8393a8;
+  }
+}
